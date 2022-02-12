@@ -3,78 +3,51 @@
 .contact {
   background-color: white;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  @include mobile {
-    flex-direction: column;
+  .head1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 24px;
   }
 
-  .left {
-    flex: 1;
-    overflow: hidden;
-
-    img {
-      height: 100%;
-    }
+  .head2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
-  .right {
-    flex: 1;
+
+  .icon {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .line {
+    width: 170px;
+    height: 1.6px;
+    background-color: #021b79;
+  }
+
+  .phoneNo {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+
+  .contactDiv {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
 
-    h2 {
-      font-size: 30px;
-    }
-
-    form {
-      width: 70%;
-      height: 70%;
+    .iconDiv {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      justify-content: space-around;
-
-      input {
-        width: 300px;
-        height: 30px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 195px;
-          height: 20px;
-        }
-      }
-
-      textarea {
-        width: 300px;
-        height: 200px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 195px;
-          height: 100px;
-        }
-      }
-
-      button {
-        width: 150px;
-        height: 30px;
-        color: white;
-        background-color: crimson;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        cursor: pointer;
-
-        &:focus {
-          outline: none;
-        }
-      }
-
-      span {
-        color: green;
-      }
     }
   }
 }

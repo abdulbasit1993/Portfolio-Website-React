@@ -5,7 +5,9 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Testimonials from "./components/testimonials/Testimonials";
+import ContactBanner from "./components/contactBanner/ContactBanner";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 import "./app.scss";
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
         <Portfolio />
         <Works />
         <Testimonials />
+        <ContactBanner />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

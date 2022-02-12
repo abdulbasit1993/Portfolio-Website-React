@@ -16,7 +16,18 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: crimson;
+      background: #0575e6; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        #021b79,
+        #0575e6
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #021b79,
+        #0575e6
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -73,7 +84,7 @@
 
         span {
           font-size: inherit;
-          color: crimson;
+          color: #021b79;
         }
 
         .ityped-cursor {

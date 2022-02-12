@@ -1,0 +1,56 @@
+.contactbanner {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 350px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .centerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+
+    .bannerHead {
+      font-size: 32px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .subtext {
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hireBtn {
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      background-color: #021b79;
+      width: 120px;
+      height: 40px;
+      border-radius: 20px;
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        background-color: #0028bb;
+      }
+    }
+  }
+}
