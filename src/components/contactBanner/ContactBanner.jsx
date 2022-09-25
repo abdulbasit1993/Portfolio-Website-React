@@ -10,7 +10,7 @@ export default function ContactBanner() {
         <p className="subtext">I'm available for hiring.</p>
 
         {/* Hire me button */}
-        <a href="#contact" className="hireBtn">
+        <a href="https://drive.google.com/file/d/12SfXkITLgPM8Qlbj--v57a0-_DygBoJL/view?usp=sharing" className="hireBtn">
           Hire Me
         </a>
       </div>
