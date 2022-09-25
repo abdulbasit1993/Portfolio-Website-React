@@ -52,7 +52,7 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
+          <div className="item" onClick={() => window.location.href = d.link}>
             <img src={d.img} alt="" />
             <h3>{d.title}</h3>
           </div>
