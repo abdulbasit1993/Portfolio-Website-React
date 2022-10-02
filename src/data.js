@@ -7,7 +7,7 @@ export const featuredPortfolio = [
     id: 1,
     title: "Todo Web App MERN",
     img: TodoWebApp_IMG,
-    link: "https://mern-todo-web-app.vercel.app/",
+    link: "https://mern-todo-web-app.vercel.app",
   },
   {
     id: 2,
