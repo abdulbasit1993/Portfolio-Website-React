@@ -1,5 +1,5 @@
 import CalculatorWebApp_IMG from "./assets/images/Calculator-WebApp.png";
-import TodoWebApp_IMG from "./assets/images/images/todo-web-app.png";
+import TodoWebApp_IMG from "./assets/images/todo-web-app.png";
 import ComingSoon_IMG from "./assets/images/coming-soon.jpg";
 
 export const featuredPortfolio = [
