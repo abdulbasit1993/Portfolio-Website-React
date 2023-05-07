@@ -1,13 +1,13 @@
 import CalculatorWebApp_IMG from "./assets/images/Calculator-WebApp.png";
-import TodoWebApp_IMG from "./assets/images/todo-web-app.png";
+import TodoWebApp_IMG from "./assets/images/todo-list-web-app.png";
 import ComingSoon_IMG from "./assets/images/coming-soon.jpg";
 
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Todo Web App MERN",
+    title: "Todo List Web App",
     img: TodoWebApp_IMG,
-    link: "https://mern-todo-web-app.vercel.app",
+    link: "https://todo-list-web-app-abdulbasit1993.vercel.app/",
   },
   {
     id: 2,
@@ -25,9 +25,9 @@ export const featuredPortfolio = [
 export const webPortfolio = [
   {
     id: 1,
-    title: "Todo Web App MERN",
+    title: "Todo List Web App",
     img: TodoWebApp_IMG,
-    link: "https://mern-todo-web-app.vercel.app/",
+    link: "https://todo-list-web-app-abdulbasit1993.vercel.app/",
   },
   {
     id: 2,
