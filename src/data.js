@@ -2,6 +2,7 @@ import CalculatorWebApp_IMG from "./assets/images/Calculator-WebApp.png";
 import TodoWebApp_IMG from "./assets/images/todo-list-web-app.png";
 import ComingSoon_IMG from "./assets/images/coming-soon.jpg";
 import PakFit_IMG from "./assets/images/pakfit.png";
+import AnalogClock_IMG from "./assets/images/analog-clock.png";
 
 export const featuredPortfolio = [
   {
@@ -18,12 +19,18 @@ export const featuredPortfolio = [
   },
   {
     id: 3,
+    title: "Analog Clock",
+    img: AnalogClock_IMG,
+    link: "https://abdulbasit1993.github.io/Analog-Clock-HTML-CSS/",
+  },
+  {
+    id: 4,
     title: "Calculator Web App",
     img: CalculatorWebApp_IMG,
     link: "https://abdulbasit1993.github.io/Calculator-WebApp/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Coming Soon",
     img: ComingSoon_IMG,
   },
@@ -38,6 +45,12 @@ export const webPortfolio = [
   },
   {
     id: 2,
+    title: "Analog Clock",
+    img: AnalogClock_IMG,
+    link: "https://abdulbasit1993.github.io/Analog-Clock-HTML-CSS/",
+  },
+  {
+    id: 3,
     title: "Calculator Web App",
     img: CalculatorWebApp_IMG,
     link: "https://abdulbasit1993.github.io/Calculator-WebApp/",
